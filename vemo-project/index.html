@@ -15,13 +15,7 @@
 </head>
 
 <body>
-    <!--CSS Spinner-->
-    <div class="spinner-wrapper">
-        <div class="spinner">
-            <div class="double-bounce1"></div>
-            <div class="double-bounce2"></div>
-        </div>
-    </div>
+        <div class="preloader"></div>
     <header>
         <div class="fixed">
             <nav id="mySidenav">
@@ -145,18 +139,6 @@
         crossorigin="anonymous"></script>
     <script src="js/aos.js"></script>
     <script src="js/scripts.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(window).load(function () {
-                preloaderFadeOutTime = 500;
-                function hidePreloader() {
-                    var preloader = $('.spinner-wrapper');
-                    preloader.fadeOut(preloaderFadeOutTime);
-                }
-                hidePreloader();
-            })        
-});
-    </script>
 </body>
 
 </html>
