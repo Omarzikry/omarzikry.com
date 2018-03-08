@@ -55,8 +55,6 @@ $('a[href*="#"]')
   });
 
 //preloader
-
-<script>
   $(document).ready(function () {
     //Preloader
     $(window).load(function () {
@@ -66,6 +64,4 @@ $('a[href*="#"]')
         preloader.fadeOut(preloaderFadeOutTime);
       }
       hidePreloader();
-    })};
-  });
-</script>
+    })});
