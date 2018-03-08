@@ -145,6 +145,18 @@
         crossorigin="anonymous"></script>
     <script src="js/aos.js"></script>
     <script src="js/scripts.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).load(function () {
+                preloaderFadeOutTime = 500;
+                function hidePreloader() {
+                    var preloader = $('.spinner-wrapper');
+                    preloader.fadeOut(preloaderFadeOutTime);
+                }
+                hidePreloader();
+            })        
+});
+    </script>
 </body>
 
 </html>
