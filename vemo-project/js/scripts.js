@@ -53,8 +53,3 @@ $('a[href*="#"]')
       }
     }
   });
-
-///preloader
-  $(window).load(function() {
-    $('.preloader').fadeOut('slow');
- });
