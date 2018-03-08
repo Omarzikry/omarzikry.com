@@ -15,6 +15,13 @@
 </head>
 
 <body>
+    <!--CSS Spinner-->
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
     <header>
         <div class="fixed">
             <nav id="mySidenav">
@@ -77,9 +84,11 @@
             </div>
             <div>
                 <h5 data-aos="fade-up" data-aos-duration="3000">OVERVIEW</h5>
-                <h3 data-aos="fade-up" data-aos-duration="3000">A website template for music and headphones manufacturers allowing them to sell their products easily due to its simplicity.</h3>
+                <h3 data-aos="fade-up" data-aos-duration="3000">A website template for music and headphones manufacturers allowing them to sell their products easily due
+                    to its simplicity.</h3>
             </div>
-        </div><!--end overview-->
+        </div>
+        <!--end overview-->
 
         <!--project section-->
         <div class="project">
@@ -87,9 +96,15 @@
         </div>
         <!--project2-->
         <div class="project2">
-            <div class="img"><img src="images/vemomobilecrop2.png" class="img1" alt="Vemo news feed page created by omar zikry" data-aos="fade-up" data-aos-duration="2500"></div>
-            <div class="img"><img src="images/model.jpeg" class="img2" alt="vemo model" data-aos="fade-up" data-aos-duration="1500"></div>
-            <div class="img"><img src="images/vemomobilecrop3.png" class="img3" alt="vemo accessories page created by omar zikry" data-aos="fade-up" data-aos-duration="2500"></div>
+            <div class="img">
+                <img src="images/vemomobilecrop2.png" class="img1" alt="Vemo news feed page created by omar zikry" data-aos="fade-up" data-aos-duration="2500">
+            </div>
+            <div class="img">
+                <img src="images/model.jpeg" class="img2" alt="vemo model" data-aos="fade-up" data-aos-duration="1500">
+            </div>
+            <div class="img">
+                <img src="images/vemomobilecrop3.png" class="img3" alt="vemo accessories page created by omar zikry" data-aos="fade-up" data-aos-duration="2500">
+            </div>
         </div>
         <!--model section-->
         <div class="model">
@@ -98,7 +113,9 @@
         <!--news feed section-->
         <div class="newsfeed project">
             <img src="images/newsfeed1.png" alt="vemo project by omar zikry" data-aos="fade-up" data-aos-duration="2500">
-            <div class="btn-wrapper"><a href="../vemo" class="btn">SEE IT ONLINE</a></div>
+            <div class="btn-wrapper">
+                <a href="../vemo" class="btn">SEE IT ONLINE</a>
+            </div>
         </div>
         <!--model section-->
         <div class="model">
@@ -107,16 +124,20 @@
     </main>
     <footer>
         <div class="footer">
-                <a href="../" class="menu-link">HOME</a>
-                <a href="../#work" class="menu-link">WORK</a>
-                <a href="../#about" class="menu-link">ABOUT</a>
-                <a href="../#contact" class="menu-link">CONTACT</a>
-                <p class="slash">/</p>
-                <a href="https://www.linkedin.com/in/omarzikry" target="_blank" class="social">LINKDIN</a>
-                <a href="https://github.com/Omarzikry" target="_blank" class="social">GITHUB</a>
-                <a href="https://twitter.com/OmarZikry11" target="_blank" class="social">TWITTER</a>
-                <p class="slash slash2">/</p>
-                <p class="copy"><span><i class="far fa-copyright"></i></span>OMAR ZIKRY 2018 <br>ALL RIGHTS RESERVED</p>
+            <a href="../" class="menu-link">HOME</a>
+            <a href="../#work" class="menu-link">WORK</a>
+            <a href="../#about" class="menu-link">ABOUT</a>
+            <a href="../#contact" class="menu-link">CONTACT</a>
+            <p class="slash">/</p>
+            <a href="https://www.linkedin.com/in/omarzikry" target="_blank" class="social">LINKDIN</a>
+            <a href="https://github.com/Omarzikry" target="_blank" class="social">GITHUB</a>
+            <a href="https://twitter.com/OmarZikry11" target="_blank" class="social">TWITTER</a>
+            <p class="slash slash2">/</p>
+            <p class="copy">
+                <span>
+                    <i class="far fa-copyright"></i>
+                </span>OMAR ZIKRY 2018
+                <br>ALL RIGHTS RESERVED</p>
         </div>
     </footer>
 
@@ -127,6 +148,19 @@
     <!--scripts-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            //Preloader
+            $(window).load(function () {
+                preloaderFadeOutTime = 500;
+                function hidePreloader() {
+                    var preloader = $('.spinner-wrapper');
+                    preloader.fadeOut(preloaderFadeOutTime);
+                }
+                hidePreloader();
+            });
+        });
+    </script>
     <script src="js/aos.js"></script>
     <script src="js/scripts.js"></script>
 </body>

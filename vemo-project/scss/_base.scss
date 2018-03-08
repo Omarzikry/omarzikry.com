@@ -6,6 +6,7 @@ html,body{
     color: black;
     font-family: 'lato','roboto',sans-serif;
     background-color: #FEFEFE;
+    height: 100%
 }
 *{
     box-sizing: border-box;
@@ -15,6 +16,7 @@ html,body{
 }
 body{
     overflow-x: hidden;
+    height: 100%
 }
 a{
     text-decoration: none
