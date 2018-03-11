@@ -15,7 +15,8 @@ html,body{
 }
 body{
     overflow-x: hidden;
-    background-color: #f1c40f
+    background-color: #f1c40f;
+    min-height: 100vh;
 }
 a{
     text-decoration: none
