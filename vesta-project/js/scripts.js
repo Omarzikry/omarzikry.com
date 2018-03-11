@@ -46,7 +46,7 @@ particleground(document.getElementById('particles-background'), {
 });
 
 window.onload = init();
-function init(event){
+function init(){
 var body = document.getElementById('body');
 var preloader = document.getElementById('remove');
 document.getElementById('remove').style.display = "none";
