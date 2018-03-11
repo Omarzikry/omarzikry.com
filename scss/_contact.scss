@@ -21,15 +21,15 @@
     height: 60px;
     width: 300px;
     padding: 0.3em;
-    border: 2px solid black;
+    border: 2px solid $yellow;
     border-radius: 3px;
     margin: 1em auto;
     font-size: 2em;
-    color: black;
+    color: $yellow;
     transition: all 0.5s ease
 }
 .contact-btn:hover{
-    background-color: black;
+    background-color: $yellow;
     color: white;
 }
 .contact .social{
