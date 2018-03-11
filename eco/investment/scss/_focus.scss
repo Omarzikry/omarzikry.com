@@ -1,0 +1,65 @@
+.focus{
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative
+}
+.focus .item{
+    padding: 5em;
+    background-color: white;
+    height: 20em;
+    font-family: 'Oswald',sans-serif;
+    color: #574c52;
+}
+.focus .item h3{
+    font-size: 2em
+}
+.focus .item p{
+    line-height: 1.5em;
+    font-size: 1.3em;
+    padding: 1em 0;
+    font-weight: 100
+}
+.focus .item .first{
+    padding: 0
+}
+
+@media only screen and (max-width:47.777em){
+    .focus{
+        grid-template-columns: 1fr;
+    }
+    .focus .item{
+        padding: 1em;
+        height: 30em
+    }
+    .focus .item1{
+        height: 5em;
+    }
+}
+.service-icon{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color:#d8d0ca;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+.service-icon h2{
+    position: relative;
+    bottom: 3em;
+    right: 5em;
+    letter-spacing: 1px
+}
+.service-icon h2:after{
+    content: "";
+    height: 2px;
+    width: 70px;
+    background-color: #d8d0ca;
+    position: absolute;
+    transform: rotateZ(90deg);
+    bottom: -37px;
+    left: 0px
+}

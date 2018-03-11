@@ -1,0 +1,34 @@
+.references{
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin: 0 auto;
+}
+.references .item h4{
+    font-size: 2em;
+    color: #574c52;
+    padding: 0.5em 0;
+    letter-spacing: 1px
+}
+.wrapper-ref{
+    background-color: rgb(150, 140, 140);
+    position: relative;
+    padding-bottom: 10em
+}
+.references .item .first{
+    color: white
+}
+.references .item p{
+    color: #574c52;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+.references .item{
+    padding: 1.5em
+}
+@media only screen and (max-width:47.777em){
+    .references{
+        grid-template-columns: 1fr;
+    }
+}
