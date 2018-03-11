@@ -1,13 +1,3 @@
-window.onload = init();
-function init(event){
-var body = document.getElementById('body');
-var preloader = document.getElementById('remove');
-document.getElementById('remove').style.display = "none"
-body.style.overflow = "visible"
-body.style.overflowX = "hidden"
-body.classList.remove('preload')
-console.log('loaded')
-}
 //preloader
 /*!
  * Particleground
@@ -55,7 +45,16 @@ particleground(document.getElementById('particles-background'), {
   particleRadius: 2, // Dot size
 });
 
-
+window.onload = init();
+function init(event){
+var body = document.getElementById('body');
+var preloader = document.getElementById('remove');
+document.getElementById('remove').style.display = "none";
+body.style.overflow = "visible";
+body.style.overflowX = "hidden";
+body.classList.remove('preload');
+console.log('loaded')
+}
 ////toggle button
 $(document).ready(function() {     
     $('.nav-btn').click(function(){
