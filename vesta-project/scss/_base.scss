@@ -5,7 +5,7 @@ $rose: #d24d57;
 html,body{
     color: black;
     font-family: 'lato','roboto',sans-serif;
-    background-color: #FEFEFE;
+    background-color: #f1c40f;
 }
 *{
     box-sizing: border-box;
@@ -28,12 +28,9 @@ a{
     left: 0;
     top: 0;
 }
-.preload * {
-    -webkit-transition: none !important;
-    -moz-transition: none !important;
-    -ms-transition: none !important;
-    -o-transition: none !important;
-  }
+.remove{
+    display: none
+}
 @media only screen and (max-width:47.77em){
     html{
         width: 100%;
