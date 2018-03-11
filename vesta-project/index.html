@@ -18,7 +18,28 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
+<body id="body" class="thebody preload">
+    <div id="remove">
+    <div id="particles-background" class="vertical-centered-box"></div>
+    <div id="particles-foreground" class="vertical-centered-box"></div>
+
+    <div class="vertical-centered-box">
+        <div class="content">
+            <div class="loader-circle"></div>
+            <div class="loader-line-mask">
+                <div class="loader-line"></div>
+            </div>
+            <svg width="36" viewBox="0 0 36 20" id="prism-logo">
+                <path id="prism-logo-p2" d="M2.000,0.000 C2.000,0.000 21.000,20.000 21.000,20.000 C21.000,20.000 34.000,20.000 34.000,20.000 C34.000,20.000 14.000,0.000 14.000,0.000 C14.000,0.000 2.000,0.000 2.000,0.000 Z"
+                    fill="rgba(255,255,255,.7)" />
+                <path id="prism-logo-p1" d="M11.957,2.070 C11.957,0.913 12.680,0.001 14.056,0.001 C14.135,0.001 2.840,0.001 2.099,0.001 C1.359,0.001 0.000,0.814 0.000,2.070 C0.000,3.327 0.000,20.001 0.000,20.001 C0.000,20.001 11.957,20.001 11.957,20.001 C11.957,20.001 11.957,11.414 11.957,2.070 Z"
+                    fill="#fff" />
+                <path id="prism-logo-p3" d="M24.007,17.933 C24.007,19.090 23.286,20.001 21.913,20.001 C21.835,20.001 33.167,20.001 33.906,20.001 C34.645,20.001 36.000,19.189 36.000,17.933 C36.000,16.676 36.000,0.001 36.000,0.001 C36.000,0.001 24.007,0.001 24.007,0.001 C24.007,0.001 24.007,8.588 24.007,17.933 Z"
+                    fill="#fff" />
+            </svg>
+        </div>
+    </div>
+</div>
     <header>
         <div class="fixed">
             <nav id="mySidenav">
@@ -81,9 +102,11 @@
             </div>
             <div>
                 <h5 data-aos="fade-up" data-aos-duration="3000">OVERVIEW</h5>
-                <h3 data-aos="fade-up" data-aos-duration="3000">An amazing website template that I made recently that focuses on bringing new user interference and making the user interact with the website more easily.</h3>
+                <h3 data-aos="fade-up" data-aos-duration="3000">An amazing website template that I made recently that focuses on bringing new user interference and making
+                    the user interact with the website more easily.</h3>
             </div>
-        </div><!--end overview-->
+        </div>
+        <!--end overview-->
 
         <!--project section-->
         <div class="project">
@@ -91,10 +114,21 @@
         </div>
         <!--project2-->
         <div class="project2">
-            <div class="img"><img src="images/vestagallarycrop.png" class="img1" alt="vesta gallary page created by omar zikry" data-aos="fade-up" data-aos-duration="2500"></div>
-            <div class="img"><img src="images/vestagallarycrop2.png" class="img2" alt="vesta gallary page created by omar zikry" data-aos="fade-up" data-aos-duration="2500"></div>
-            <div class="img"><img src="images/fullvestacrop.png" class="img3" alt="vesta gallary page created by omar zikry" data-aos="fade-up" data-aos-duration="2500"></div>
-            <div class="btn-wrapper"><a href="../vesta" class="btn">SEE IT ONLINE</a></div>
+            <div class="img">
+                <img src="images/vestagallarycrop.png" class="img1" alt="vesta gallary page created by omar zikry" data-aos="fade-up"
+                    data-aos-duration="2500">
+            </div>
+            <div class="img">
+                <img src="images/vestagallarycrop2.png" class="img2" alt="vesta gallary page created by omar zikry" data-aos="fade-up"
+                    data-aos-duration="2500">
+            </div>
+            <div class="img">
+                <img src="images/fullvestacrop.png" class="img3" alt="vesta gallary page created by omar zikry" data-aos="fade-up"
+                    data-aos-duration="2500">
+            </div>
+            <div class="btn-wrapper">
+                <a href="../vesta" class="btn">SEE IT ONLINE</a>
+            </div>
         </div>
         <!--model section-->
         <div class="model">
@@ -103,16 +137,20 @@
     </main>
     <footer>
         <div class="footer">
-                <a href="../" class="menu-link">HOME</a>
-                <a href="../#work" class="menu-link">WORK</a>
-                <a href="../#about" class="menu-link">ABOUT</a>
-                <a href="../#contact" class="menu-link">CONTACT</a>
-                <p class="slash">/</p>
-                <a href="https://www.linkedin.com/in/omarzikry" target="_blank" class="social">LINKDIN</a>
-                <a href="https://github.com/Omarzikry" target="_blank" class="social">GITHUB</a>
-                <a href="https://twitter.com/OmarZikry11" target="_blank" class="social">TWITTER</a>
-                <p class="slash slash2">/</p>
-                <p class="copy"><span><i class="far fa-copyright"></i></span>OMAR ZIKRY 2018 <br>ALL RIGHTS RESERVED</p>
+            <a href="../" class="menu-link">HOME</a>
+            <a href="../#work" class="menu-link">WORK</a>
+            <a href="../#about" class="menu-link">ABOUT</a>
+            <a href="../#contact" class="menu-link">CONTACT</a>
+            <p class="slash">/</p>
+            <a href="https://www.linkedin.com/in/omarzikry" target="_blank" class="social">LINKDIN</a>
+            <a href="https://github.com/Omarzikry" target="_blank" class="social">GITHUB</a>
+            <a href="https://twitter.com/OmarZikry11" target="_blank" class="social">TWITTER</a>
+            <p class="slash slash2">/</p>
+            <p class="copy">
+                <span>
+                    <i class="far fa-copyright"></i>
+                </span>OMAR ZIKRY 2018
+                <br>ALL RIGHTS RESERVED</p>
         </div>
     </footer>
 
