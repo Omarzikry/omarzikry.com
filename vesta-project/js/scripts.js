@@ -2,7 +2,7 @@ window.onload = init();
 function init(event){
 var body = document.getElementById('body');
 var preloader = document.getElementById('remove');
-body.removeChild(preloader);
+document.getElementById('remove').style.display = "none"
 body.style.overflow = "visible"
 body.style.overflowX = "hidden"
 body.classList.remove('preload')
