@@ -2,11 +2,14 @@ html,body{
     max-width: 100%
 }
 main{
-    height: 100vh
+    height: 100em;
+    background-color: white;
+    z-index: 999;
+    position: relative;
 }
 a{
     text-decoration: none;
-    color: white
+    color: white;
 }
 @font-face {
     font-family: anvil1 ;

@@ -1,4 +1,8 @@
 $width : 100%;
+header{
+    width: 100%;
+    height: 100vh
+}
 .hero{
     background-image: url('../images/hero.jpg');
     background-size: 100% 120%;
@@ -7,7 +11,9 @@ $width : 100%;
     margin: 0 auto;
     width: 96%;
     margin-top: 2%;
-    position: relative
+    position: relative;
+    position: fixed;
+    left: 2%
 }
 
 header .overlay{
