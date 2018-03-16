@@ -3,7 +3,9 @@ $cool-black: #272525;
 $cool-grey: #181818;
 $white: #E8E8E8;
 
-
+body{
+    overflow-x: hidden;
+}
 
 .small-only a{
     border: 2px solid $cool-grey;
