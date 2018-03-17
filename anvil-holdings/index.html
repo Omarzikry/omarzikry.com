@@ -13,7 +13,7 @@
 <body>
     <header>
         <div class="hero">
-            <nav>
+            <nav class="nav-none">
                 <a href="#">
                     <strong class="logo">anvil holdings</strong>
                 </a>
@@ -29,34 +29,34 @@
                     </li>
                 </ul>
             </nav>
-            <aside>
+            <aside class="display-none">
                 <ul>
                     <li>
-                        <span class="nh-scrollspy__item-index">01</span>
-                        <a href="#">WHAT WE DO</a>
+                        <a href="#main"><span class="nh-scrollspy__item-index">01</span></a>
+                        <a href="#main">WHAT WE DO</a>
                     </li>
                     <li>
-                        <span class="nh-scrollspy__item-index">02</span>
+                        <a href="#"><span class="nh-scrollspy__item-index">01</span></a>
                         <a href="#">ABOUT US</a>
                     </li>
                     <li>
-                        <span class="nh-scrollspy__item-index">03</span>
+                        <a href="#"><span class="nh-scrollspy__item-index">01</span></a>
                         <a href="#">INVESTMENT AREAS</a>
                     </li>
                     <li>
-                        <span class="nh-scrollspy__item-index">04</span>
+                        <a href="#"><span class="nh-scrollspy__item-index">01</span></a>
                         <a href="#">WHO WE ARE</a>
                     </li>
                     <li>
-                        <span class="nh-scrollspy__item-index">05</span>
+                        <a href="#"><span class="nh-scrollspy__item-index">01</span></a>
                         <a href="#">ANNUAL REVIEW</a>
                     </li>
                     <li>
-                        <span class="nh-scrollspy__item-index">06</span>
+                        <a href="#"><span class="nh-scrollspy__item-index">01</span></a>
                         <a href="#">INVESTMENT TIMELINE</a>
                     </li>
                     <li>
-                        <span class="nh-scrollspy__item-index">07</span>
+                        <a href="#"><span class="nh-scrollspy__item-index">01</span></a>
                         <a href="#">CONTACT</a>
                     </li>
                 </ul>
@@ -66,7 +66,56 @@
             </div>
         </div>
     </header>
-    <main></main>
+    <main id="main">
+            <nav id="nav-fixed">
+                    <a href="#">
+                        <strong class="logo">anvil holdings</strong>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="#">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="#">INVESTMENTS</a>
+                        </li>
+                        <li>
+                            <a href="#">PEOPLE</a>
+                        </li>
+                    </ul>
+                </nav>
+        <aside id="aside">
+            <ul id="aside">
+                <li class="first">
+                    <a href="#main"><span class="nh-scrollspy__item-index">01</span></a>
+                    <a href="#main" class="word">WHAT WE DO</a>
+                </li>
+                <li>
+                    <a href="#"><span class="nh-scrollspy__item-index">02</span></a>
+                    <a href="#" class="word">ABOUT US</a>
+                </li>
+                <li>
+                    <a href="#"><span class="nh-scrollspy__item-index">03</span></a>
+                    <a href="#" class="word">INVESTMENT AREAS</a>
+                </li>
+                <li>
+                    <a href="#"><span class="nh-scrollspy__item-index">04</span></a>
+                    <a href="#" class="word">WHO WE ARE</a>
+                </li>
+                <li>
+                    <a href="#"><span class="nh-scrollspy__item-index">05</span></a>
+                    <a href="#" class="word">ANNUAL REVIEW</a>
+                </li>
+                <li>
+                    <a href="#"><span class="nh-scrollspy__item-index">06</span></a>
+                    <a href="#" class="word">INVESTMENT TIMELINE</a>
+                </li>
+                <li>
+                    <a href="#"><span class="nh-scrollspy__item-index">07</span></a>
+                    <a href="#" class="word">CONTACT</a>
+                </li>
+            </ul>
+            </aside>
+    </main>
 
 
 

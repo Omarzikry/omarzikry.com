@@ -4,12 +4,15 @@ html,body{
 main{
     height: 100em;
     background-color: white;
-    z-index: 999;
+    z-index: 0;
     position: relative;
 }
 a{
     text-decoration: none;
     color: white;
+}
+*:focus{
+    outline: 0;
 }
 @font-face {
     font-family: anvil1 ;
