@@ -6,33 +6,62 @@
             $('aside').removeClass('aside-fixed')
         }
     });*/
-    
 
     var aside = document.getElementById('aside');
     var main = $('main').offset().top
+    var about = $('.about').offset().top
 
     $(window).scroll(function(){
         if ($(document).scrollTop() > main-335){
             $('.display-none').css('display','none')
             $('aside').addClass('aside-fixed')
-            $('.first a').css('color','#191919')
+            $('.first').addClass('active')
+            $('.second').removeClass('active')
         }
         else{
             $('aside').removeClass('aside-fixed');
             $('.display-none').css('display','block')
         }
+
+        if ($(document).scrollTop() > about-500){
+          console.log('it')
+          $('.first').removeClass('active')
+          $('.second').addClass('active')
+      }
     })
 
     $(window).scroll(function(){
         if ($(document).scrollTop() > main){
            $('nav').addClass('nav-fixed')
-           $('.nav-none').css('display','none')
+           $('.nav-none-it').addClass('nave-none')
         }
         else{
             $('nav').removeClass('nav-fixed')
-            $('.nav-none').css('display','flex')
+            $('.nav-none-it').removeClass('nave-none')
         }
     })
+    
+    //nav btn
+    $('.nav-btn').click(function(){
+      $('nav').toggleClass('height');
+      $('nav ul').toggleClass('height1');
+      $('.nav-btn').toggleClass('close');
+      $('body').toggleClass('over-hidden');
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // Select all links with hashes
 $('a[href*="#"]')

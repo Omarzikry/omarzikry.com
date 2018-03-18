@@ -1,8 +1,8 @@
+$blue : #011a65;
 html,body{
-    max-width: 100%
+    max-width: 100%;
 }
 main{
-    height: 100em;
     background-color: white;
     z-index: 0;
     position: relative;
@@ -13,6 +13,15 @@ a{
 }
 *:focus{
     outline: 0;
+}
+.height{
+    height: 100vh
+}
+.height1{
+    height: 30%
+}
+.over-hidden{
+    overflow: hidden
 }
 @font-face {
     font-family: anvil1 ;
