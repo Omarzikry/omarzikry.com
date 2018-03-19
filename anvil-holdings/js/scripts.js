@@ -6,10 +6,14 @@
             $('aside').removeClass('aside-fixed')
         }
     });*/
-
+/////////////////////ASIDE
     var aside = document.getElementById('aside');
     var main = $('main').offset().top
     var about = $('.about').offset().top
+    var investment = $('.investment').offset().top
+    var who = $('.who').offset().top
+    var annual = $('.annual').offset().top
+    var contact = $('.contact').offset().top
 
     $(window).scroll(function(){
         if ($(document).scrollTop() > main-335){
@@ -21,14 +25,61 @@
         else{
             $('aside').removeClass('aside-fixed');
             $('.display-none').css('display','block')
-        }
+        };
 
-        if ($(document).scrollTop() > about-500){
-          console.log('it')
+        if ($(document).scrollTop() > about-480){
           $('.first').removeClass('active')
           $('.second').addClass('active')
-      }
+          $('.third').removeClass('active')
+      };
+      if ($(document).scrollTop() > investment-480){
+        $('.second').removeClass('active')
+        $('.third').addClass('active')
+        $('.fourth').removeClass('active')
+    };
+    if ($(document).scrollTop() > who-480){
+      $('.third').removeClass('active')
+      $('.fourth').addClass('active');
+      $('.fifth').removeClass('active');
+  }
+  if($(document).scrollTop() > annual-480){
+    $('.fourth').removeClass('active')
+      $('.fifth').addClass('active');
+  }
+  if($(document).scrollTop() > contact-480){
+    $('.fifth').removeClass('active')
+      $('.sixth').addClass('active')
+  }
+    else{
+      $('.sixth').removeClass('active')
+    }
     })
+    //////////
+    //slide z-index
+  var counter = 1;
+  var counter2 = 2;
+  var counter3 = 3;
+  var int = setInterval(function(){
+    $("#slider1").attr("class", "slide" + counter);
+    $("#slider2").attr("class", "slide" + counter2);
+    $("#slider3").attr("class", "slide" + counter3);
+    if (counter === 3){
+        counter = 1; // If counter = 3, set it back to 1 for next loop
+    } else {
+        counter++; // Else, add 1 to the counter
+    }
+    if (counter2 === 3){
+      counter2 = 1; // If counter = 3, set it back to 1 for next loop
+  } else {
+      counter2++; // Else, add 1 to the counter
+  }
+  if (counter3 === 3){
+    counter3 = 1; // If counter = 3, set it back to 1 for next loop
+} else {
+    counter3++; // Else, add 1 to the counter
+}
+  }, 5000);
+  ////////////
 
     $(window).scroll(function(){
         if ($(document).scrollTop() > main){

@@ -1,11 +1,16 @@
 $blue : #011a65;
+$dark : #191919;
 html,body{
-    max-width: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden
 }
 main{
     background-color: white;
     z-index: 0;
     position: relative;
+    width: 100vw
 }
 a{
     text-decoration: none;

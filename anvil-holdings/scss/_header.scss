@@ -1,7 +1,8 @@
 $width : 100%;
 header{
     width: 100%;
-    height: 100vh
+    height: 100vh;
+    overflow: hidden
 }
 .hero{
     background-image: url('../images/hero.jpg');
@@ -14,7 +15,9 @@ header{
     position: relative;
     position: fixed;
     left: 2%;
-    text-align: center
+    text-align: center;
+    overflow: hidden;
+    box-sizing: border-box
 }
 
 header .overlay{
@@ -28,6 +31,7 @@ header .overlay{
     font-size: 4.5em;
     font-family: anvil2;
     letter-spacing: 2px;
+    box-sizing: border-box
 }
 nav{
     position: absolute;
@@ -285,11 +289,13 @@ nav.aside-fixed ul li a:after{
   transition: all 0.5s ease
 }
 .aside-fixed .word{
-  display: none
+  display: none;
+  letter-spacing: 1px;
+  font-size: 1.2em
 }
 .aside-fixed .active .word{
   display: initial;
-  color: #191919
+  color: #191919;
 }
 .aside-fixed .active span{
   display: none
@@ -304,4 +310,3 @@ nav.aside-fixed ul li a:after{
 .aside-fixed ul:hover span{
     display: none
 }
-
