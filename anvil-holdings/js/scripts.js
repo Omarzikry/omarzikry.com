@@ -46,7 +46,7 @@
     $('.fourth').removeClass('active')
       $('.fifth').addClass('active');
   }
-  if($(document).scrollTop() > contact-300){
+  if($(document).scrollTop() > contact-380){
     $('.fifth').removeClass('active')
       $('.sixth').addClass('active')
   }
