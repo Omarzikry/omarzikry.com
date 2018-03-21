@@ -177,7 +177,7 @@ nav.aside-fixed ul li a:after{
     }
     nav.nav-fixed{
         padding: 0;
-        padding-top: 1em
+        padding-top: 0em
     }
     .nav-btn{
         display: block;
@@ -309,4 +309,11 @@ nav.aside-fixed ul li a:after{
 }
 .aside-fixed ul:hover span{
     display: none
+}
+
+
+@media only screen and (max-width:1170px){
+    .nav-fixed ul{
+        width: 75%
+    }
 }
