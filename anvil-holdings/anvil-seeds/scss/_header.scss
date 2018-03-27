@@ -270,7 +270,16 @@ nav.aside-fixed ul li a:after{
     nav ul{
         width: 75%;
     }
-
+    header .overlay{
+        font-size: 3em
+    }
+}
+@media (min-width:675px) and(max-width:870px){
+    header .overlay{
+        font-size: 2em;
+        padding: 0;
+        line-height: 1.5em
+    }
 }
 @media (max-width:80em){
     aside{

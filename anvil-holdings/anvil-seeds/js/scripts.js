@@ -8,12 +8,13 @@
     });*/
 /////////////////////ASIDE
     var aside = document.getElementById('aside');
-    var main = $('main').offset().top
-    var about = $('.about').offset().top
-    var investment = $('.investment').offset().top
-    var who = $('.who').offset().top
-    var annual = $('.annual').offset().top
+    var main = $('.what').offset().top
+    var strategy = $('.strategy').offset().top
+    var company = $('#company').offset().top
+    var people = $('#people').offset().top
+    var key = $('.annual').offset().top
     var contact = $('.contact').offset().top
+    var news = $('.news').offset().top
 
     $(window).scroll(function(){
         if ($(document).scrollTop() > main-335){
@@ -27,31 +28,36 @@
             $('.display-none').css('display','block')
         };
 
-        if ($(document).scrollTop() > about-480){
+        if ($(document).scrollTop() > strategy-480){
           $('.first').removeClass('active')
           $('.second').addClass('active')
           $('.third').removeClass('active')
       };
-      if ($(document).scrollTop() > investment-480){
+      if ($(document).scrollTop() > company-480){
         $('.second').removeClass('active')
         $('.third').addClass('active')
         $('.fourth').removeClass('active')
     };
-    if ($(document).scrollTop() > who-480){
+    if ($(document).scrollTop() > key-480){
       $('.third').removeClass('active')
       $('.fourth').addClass('active');
       $('.fifth').removeClass('active');
   }
-  if($(document).scrollTop() > annual-480){
+  if($(document).scrollTop() > people-480){
     $('.fourth').removeClass('active')
       $('.fifth').addClass('active');
+      $('.sixth').removeClass('active')
   }
-  if($(document).scrollTop() > contact-380){
+  if($(document).scrollTop() > news-480){
     $('.fifth').removeClass('active')
       $('.sixth').addClass('active')
   }
+  if($(document).scrollTop() > contact-380){
+    $('.sixth').removeClass('active')
+      $('.seventh').addClass('active')
+  }
     else{
-      $('.sixth').removeClass('active')
+      $('.seventh').removeClass('active')
     }
     })
     //////////

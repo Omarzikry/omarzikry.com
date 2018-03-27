@@ -2,7 +2,8 @@
     height: 50em;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    padding-top: 3em
 }
 .annual .inner{
     display: -ms-grid;
@@ -10,8 +11,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     color: white;
     padding: 5em;
-    box-sizing: border-box;
-    padding-top: 1em;
+    padding-top: 2em;
     grid-gap: 0.5em;
     text-align: center
 }
@@ -22,7 +22,7 @@
     align-items: center;
     flex-direction: column;
     width: 80%;
-    height: 95%;
+    height: 55%;
 }
 .annual .inner .item{
     display: flex;
@@ -31,7 +31,7 @@
     align-items: center;
 }
 .annual .inner .number{
-    font-size: 5em;
+    font-size: 7em;
     font-family: anvil4,sans-serif;
 }
 .annual .inner .number span{
@@ -49,6 +49,9 @@
     font-size: 1.2em;
     font-family: anvil2,sans-serif;
     line-height: 1.5em;
+}
+.annual .n1{
+    padding-top: 0.2em
 }
 .annual .wrapper a{
     color: white;
@@ -75,7 +78,7 @@
 }
 @media only screen and (max-width:70em){
     .annual{
-        height: 74em
+        height: 60em
     }
     .annual .inner{
         grid-template-columns: 1fr
