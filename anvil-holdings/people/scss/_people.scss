@@ -1,0 +1,69 @@
+.people{
+    padding-top: 10em
+}
+.people .grid{
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    width: 70%;
+    margin: 0 auto;
+    box-sizing: border-box
+}
+.people h3{
+    color: $blue;
+    font-family: anvil1,sans-serif;
+    padding-bottom: 2em;
+    text-align: center
+}
+.img1{
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 img{
+    height: 80%
+}
+.people .grid h2{
+    font-size: 1.7em;
+    color: $dark;
+    font-family: anvil5,sans-serif
+}
+.people .grid h6{
+    color: $dark;
+    font-family: anvil1,sans-serif;
+    padding: 0.5em 0
+}
+.people .grid p{
+    color: #333;
+    font-family: anvil2,sans-serif
+}
+
+@media only screen and (max-width:1200px){
+    .people .grid{
+        width: 90%
+    }
+}
+@media only screen and (max-width:1095px){
+    .people .grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 80%
+    }
+}
+@media only screen and (max-width:830px){
+    .people .grid{
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        grid-gap: 0.5em
+    }
+}
+@media only screen and (max-width:570px){
+    .people .grid{
+        grid-template-columns: 1fr;
+        width: 95%;
+        grid-gap: 0.5em
+    }
+}
