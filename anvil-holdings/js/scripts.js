@@ -6,6 +6,17 @@
             $('aside').removeClass('aside-fixed')
         }
     });*/
+    //smooth scroll
+    $(function () {
+      $.srSmoothscroll({
+        // defaults
+        step: 55,
+        speed: 400,
+        ease: 'swing',
+        target: $('body'),
+        container: $(window)
+      })
+    })
 /////////////////////ASIDE
     var aside = document.getElementById('aside');
     var main = $('main').offset().top
