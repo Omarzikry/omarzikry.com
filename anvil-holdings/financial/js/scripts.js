@@ -9,10 +9,10 @@
 /////////////////////ASIDE
     var aside = document.getElementById('aside');
     var main = $('main').offset().top
-    var about = $('.about').offset().top
-    var investment = $('.investment').offset().top
-    var who = $('.who').offset().top
-    var annual = $('.annual').offset().top
+    var strategy = $('.strategy').offset().top
+    var values = $('.values').offset().top
+    var transactions = $('.transactions').offset().top
+    var people = $('#people').offset().top
     var contact = $('.contact').offset().top
 
     $(window).scroll(function(){
@@ -27,22 +27,22 @@
             $('.display-none').css('display','block')
         };
 
-        if ($(document).scrollTop() > about-480){
+        if ($(document).scrollTop() > strategy-480){
           $('.first').removeClass('active')
           $('.second').addClass('active')
           $('.third').removeClass('active')
       };
-      if ($(document).scrollTop() > investment-480){
+      if ($(document).scrollTop() > values-480){
         $('.second').removeClass('active')
         $('.third').addClass('active')
         $('.fourth').removeClass('active')
     };
-    if ($(document).scrollTop() > who-480){
+    if ($(document).scrollTop() > transactions-480){
       $('.third').removeClass('active')
       $('.fourth').addClass('active');
       $('.fifth').removeClass('active');
   }
-  if($(document).scrollTop() > annual-480){
+  if($(document).scrollTop() > people-480){
     $('.fourth').removeClass('active')
       $('.fifth').addClass('active');
   }
@@ -54,32 +54,6 @@
       $('.sixth').removeClass('active')
     }
     })
-    //////////
-    //slide z-index
-  var counter = 1;
-  var counter2 = 2;
-  var counter3 = 3;
-  var int = setInterval(function(){
-    $("#slider1").attr("class", "slide" + counter);
-    $("#slider2").attr("class", "slide" + counter2);
-    $("#slider3").attr("class", "slide" + counter3);
-    if (counter === 3){
-        counter = 1; // If counter = 3, set it back to 1 for next loop
-    } else {
-        counter++; // Else, add 1 to the counter
-    }
-    if (counter2 === 3){
-      counter2 = 1; // If counter = 3, set it back to 1 for next loop
-  } else {
-      counter2++; // Else, add 1 to the counter
-  }
-  if (counter3 === 3){
-    counter3 = 1; // If counter = 3, set it back to 1 for next loop
-} else {
-    counter3++; // Else, add 1 to the counter
-}
-  }, 5000);
-  ////////////
 
     $(window).scroll(function(){
         if ($(document).scrollTop() > main){
@@ -139,3 +113,39 @@ $('a[href*="#"]')
     }
   }
 });
+
+////accordion
+
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active-panel");
+    });
+}
+
+
+$('.accordion1').click(function(){
+  $('.accordion2,.accordion3,.accordion4').removeClass('active-panel')
+  $('.panel2,.panel3,.panel4').slideUp()
+  $('.panel1').slideToggle(300)
+})
+$('.accordion2').click(function(){
+  $('.accordion1,.accordion3,.accordion4').removeClass('active-panel')
+  $('.panel1,.panel3,.panel4').slideUp()
+  $('.panel2').slideToggle(300)
+})
+$('.accordion3').click(function(){
+  $('.accordion1,.accordion2,.accordion4').removeClass('active-panel')
+  $('.panel1,.panel2,.panel4').slideUp()
+  $('.panel3').slideToggle(300)
+})
+$('.accordion4').click(function(){
+  $('.accordion1,.accordion2,.accordion3').removeClass('active-panel')
+  $('.panel1,.panel2,.panel3').slideUp()
+  $('.panel4').slideToggle(300)
+})
