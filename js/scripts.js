@@ -7,7 +7,12 @@ $(document).ready(function() {
         $('.text h2').toggleClass('nav-showing');
         $('.text button').toggleClass('nav-showing');
     })
+    $('.nav-link').click(function(){
+      $('.main-ul').removeClass('showing');
+      $('.nav-btn').removeClass('close');
+    })
 });
+
 
 //============
 // Animation
