@@ -1,0 +1,131 @@
+
+// === Sidebar layout === //
+.sidebar{
+    background-color: $Oxford-Blue;
+    width: 15em;
+    position: absolute;
+    left: -15em;
+    top: 0;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    .sidebar-header{
+        @include flex;
+        height: 15em;
+        color: $grey;
+        border-bottom: 3px solid $Oxford-Blue/1.3
+    }
+}
+
+// === portrait img === //
+
+.portrait{
+    width: 150px;
+    height: 150px;
+    padding-bottom: 0.5em
+}
+
+// === drop down link === //
+
+.drop{
+    color: $mercury;
+    &:hover{
+        color: $grey;
+        text-decoration: none;
+        -webkit-transition: color 0.4s ease;
+        -o-transition: color 0.4s ease;
+        transition: color 0.4s ease
+    }
+}
+
+// === side sections === //
+
+.side-section{
+    color: $mercury;
+    padding: 1em 0 1em 0;
+    border-bottom: 3px solid $Oxford-Blue/1.3;
+    h3{
+        color: $grey;
+        padding-bottom: 0.5em;
+        padding-left: 1em;
+    }
+    a{
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 4fr;
+            grid-template-columns: 1fr 4fr;
+        padding: 0.5em 0;
+        color: $mercury/1.3;
+        padding-left: 1em;
+        position: relative;
+        &:hover{
+            color: $mercury;
+            text-decoration: none;
+            -webkit-transition: color 0.4s ease;
+            -o-transition: color 0.4s ease;
+            transition: color 0.4s ease;
+        }
+        span{
+            padding-right: 1em
+        }
+        .fa-file-alt{
+            font-size: 1.1em
+        }
+    }
+    .color{
+        display: block;
+        height: 10px;
+        width: 5px
+    }
+    .color1{
+        background-color: red
+    }
+    .custom-checkbox{
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+        .custom-control-label{
+            width: 150px;
+            padding-top: 0.2em
+        }
+    }
+    .location{
+        padding-left: 0.2em;
+    }
+}
+
+
+
+// === checkboxes style === //
+
+
+.label1:before{
+    background-color:yellow;
+  }
+  .custom-checkbox .check1:checked~.label1::before{
+    background-color:yellow;
+  }
+  .custom-checkbox .check1:checked~.label1::after{
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='black' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E");
+  }
+  .label2:before{
+    background-color:$Shakespeare;
+  }
+  .custom-checkbox .check2:checked~.label2::before{
+    background-color:$Shakespeare;
+  }
+
+  .label3:before{
+    background-color:rgb(243, 95, 120);
+  }
+  .custom-checkbox .check3:checked~.label3::before{
+    background-color:rgb(243, 95, 120);
+  }
+
+  .label4:before{
+    background-color:rgb(16, 240, 16);
+  }
+  .custom-checkbox .check4:checked~.label4::before{
+    background-color:rgb(16, 240, 16);
+  }

@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NAV AND SIDE BAR TASK</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <!--    Navbar   -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <!-- burger button -->
+            <button class="btn nav-btn burger-menu" onclick="this.blur();">
+                <span class="caret">
+                    <i class="fas fa-caret-left"></i>
+                </span>
+                <span class="bars">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </button>
+            <!-- nav collapse -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- form group -->
+                <form class="form-inline search-form">
+                    <div class="input-group search-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-white search-icon" id="basic-addon1">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </div>
+                        <input type="text" class="form-control nav-search" placeholder="Search for a job, task or resume" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                </form>
+                <!-- form end-->
+                <!--btn group-->
+                <div class="btn-group ml-auto" role="group">
+                    <button type="button" class="btn nav-btn" onclick="this.blur();">
+                        <span class="user">
+                            <i class="fas fa-user-plus"></i>
+                        </span>
+                    </button>
+                    <button type="button" class="btn nav-btn calender-btn" onclick="this.blur();">
+                        <span class="calender">
+                            <i class="fas fa-calendar-alt"></i>
+                        </span>
+                    </button>
+                    <button type="button" class="btn nav-btn d-flex flex-column  meatballs" onclick="this.blur();">
+                        <span>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </span>
+                        <span class="middle-meatballs">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </span>
+                        <span>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <!-- BTN GROUP END -->
+
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Sidebar Header -->
+                <div class="sidebar-header">
+                    <img src="images/portrait.jpeg" alt="Portrait of Newten Barley" class="portrait rounded-circle">
+                    <div class="dropdown show">
+                        <a class="drop" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Newten Barley
+                            <span class="drop-side">
+                                <i class="fas fa-angle-down"></i>
+                            </span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Hey</a>
+                            <a class="dropdown-item" href="#">There</a>
+                            <a class="dropdown-item" href="#">:)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- main section -->
+                <div class="side-section">
+                    <h3>Main</h3>
+                    <a href="#">
+                        <span class="side-icon">
+                            <i class="fas fa-home"></i>
+                        </span>
+                        <span>HOME</span>
+                    </a>
+                    <a href="#">
+                        <span class="side-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </span>
+                        <span>JOBS</span>
+                    </a>
+                    <a href="#">
+                        <span class="side-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </span>
+                        <span>RESUMES</span>
+                    </a>
+                    <a href="#">
+                        <span class="side-icon">
+                            <i class="fas fa-tasks"></i>
+                        </span>
+                        <span>TASKS</span>
+                    </a>
+                    <a href="#">
+                        <span class="side-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </span>
+                        <span>CALENDER</span>
+                    </a>
+                </div>
+                <!-- main end -->
+
+                <!-- Admin -->
+                <div class="side-section">
+                    <h3>Admin</h3>
+                    <a href="#">
+                        <span class="side-icon">
+                            <i class="fas fa-users"></i>
+                        </span>USERS</a>
+                    <a href="#">
+                        <span class="side-icon location">
+                            <i class="fas fa-map-marker"></i>
+                        </span>LOCATIONS</a>
+                    <a href="#">
+                        <span class="side-icon">
+                            <i class="fas fa-sitemap"></i>
+                        </span>WORKFLOWS</a>
+                    <a href="#" class="active">
+                        <span class="side-icon">
+                            <i class="fas fa-newspaper"></i>
+                        </span>JOB BOARDS</a>
+                    <a href="#">
+                        <span class="side-icon">
+                            <i class="fab fa-hubspot"></i>
+                        </span>SOCIAL</a>
+                </div>
+                <!-- admin end -->
+
+                <!--categories-->
+                <div class="side-section">
+                    <h3>Categories</h3>
+                    <form>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input check1" id="customControlValidation1">
+                            <label class="custom-control-label label1" for="customControlValidation1">Administrative</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input check2" id="customControlValidation2">
+                            <label class="custom-control-label label2" for="customControlValidation2">Design</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input check3" id="customControlValidation3">
+                            <label class="custom-control-label label3" for="customControlValidation3">Executive</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input check4" id="customControlValidation4">
+                            <label class="custom-control-label label4" for="customControlValidation4">Human Resources</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!--   Navbar end -->
+    </header>
+
+
+    <main class="main"></main>
+
+
+    <footer class="footer"></footer>
+
+
+
+
+
+
+    <!--scripts-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
