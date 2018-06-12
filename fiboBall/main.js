@@ -309,7 +309,7 @@ var FixturesComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<header>\n  <div class=\"hero\">\n    <img src=\"/assets/images/hero-player.png\" alt=\"football-player\" class=\"player\">\n  </div>\n  <!--team-->\n  <a routerLink=\"teams\" class=\"teams yellow\">TEAMS <span class=\"one\"><i class=\"fas fa-angle-right\"></i></span> <span class=\"two\"><i class=\"fas fa-angle-right\"></i></span><span class=\"three\"><i class=\"fas fa-angle-right\"></i></span></a>\n  <!--tickets-->\n  <a routerLink = \"tickets\" class=\"tickets yellow\"><span class=\"three\"><i class=\"fas fa-angle-left\"></i></span> <span class=\"two\"><i class=\"fas fa-angle-left\"></i></span><span class=\"one\"><i class=\"fas fa-angle-left\"></i></span> TICKETS</a>\n</header>\n"
+module.exports = "<header>\n  <div class=\"hero\">\n    <img src=\"/FiboBall/assets/images/hero-player.png\" alt=\"football-player\" class=\"player\">\n  </div>\n  <!--team-->\n  <a routerLink=\"teams\" class=\"teams yellow\">TEAMS <span class=\"one\"><i class=\"fas fa-angle-right\"></i></span> <span class=\"two\"><i class=\"fas fa-angle-right\"></i></span><span class=\"three\"><i class=\"fas fa-angle-right\"></i></span></a>\n  <!--tickets-->\n  <a routerLink = \"tickets\" class=\"tickets yellow\"><span class=\"three\"><i class=\"fas fa-angle-left\"></i></span> <span class=\"two\"><i class=\"fas fa-angle-left\"></i></span><span class=\"one\"><i class=\"fas fa-angle-left\"></i></span> TICKETS</a>\n</header>\n"
 
 /***/ }),
 
@@ -711,73 +711,73 @@ var RESULTS = [
     {
         homeTeam: 'Arsenal',
         awayTeam: 'Manchestar',
-        homeUrl: '../../assets/images/arsenal.png',
-        awayUrl: '../../assets/images/manchester.png',
+        homeUrl: '../../FiboBall/assets/images/arsenal.png',
+        awayUrl: '../../FiboBall/assets/images/manchester.png',
         result: '1-0',
         theDate: 'Monday 06/18',
         id: 1,
-        mainUrl: '../../assets/images/player.jpg',
-        sideUrl: '../../assets/images/player2.jpg',
+        mainUrl: '../../FiboBall/assets/images/player.jpg',
+        sideUrl: '../../FiboBall/assets/images/player2.jpg',
         title: 'Andrej Kramaric: Manchester hero who risked his career for his principles'
     },
     {
         homeTeam: 'Barcelona',
         awayTeam: 'Real Madrid',
-        homeUrl: '../../assets/images/barcelona.png',
-        awayUrl: '../../assets/images/real.png',
+        homeUrl: '../../FiboBall/assets/images/barcelona.png',
+        awayUrl: '../../FiboBall/assets/images/real.png',
         result: '2-4',
         theDate: 'Monday 06/18',
         id: 2,
-        mainUrl: '../../assets/images/ramos.jpg',
-        sideUrl: '../../assets/images/ramos2.jpg',
+        mainUrl: '../../FiboBall/assets/images/ramos.jpg',
+        sideUrl: '../../FiboBall/assets/images/ramos2.jpg',
         title: 'Sergio Ramos: I always believed in my ability to tackle every player'
     },
     {
         homeTeam: 'Liverpool',
         awayTeam: 'Arsenal',
-        homeUrl: '../../assets/images/liver.png',
-        awayUrl: '../../assets/images/arsenal.png',
+        homeUrl: '../../FiboBall/assets/images/liver.png',
+        awayUrl: '../../FiboBall/assets/images/arsenal.png',
         result: '1-1',
         theDate: 'Monday 06/18',
         id: 3,
-        mainUrl: '../../assets/images/salah.jpg',
-        sideUrl: '../../assets/images/salah2.jpg',
+        mainUrl: '../../FiboBall/assets/images/salah.jpg',
+        sideUrl: '../../FiboBall/assets/images/salah2.jpg',
         title: 'Mohamed Salah: Winning the European League is a must next season'
     },
     {
         homeTeam: 'Barcelona',
         awayTeam: 'Everton',
-        homeUrl: '../../assets/images/barcelona.png',
-        awayUrl: '../../assets/images/everton.png',
+        homeUrl: '../../FiboBall/assets/images/barcelona.png',
+        awayUrl: '../../FiboBall/assets/images/everton.png',
         result: '3-0',
         theDate: 'Monday 06/18',
         id: 4,
-        mainUrl: '../../assets/images/messi.jpg',
-        sideUrl: '../../assets/images/messi2.jpg',
+        mainUrl: '../../FiboBall/assets/images/messi.jpg',
+        sideUrl: '../../FiboBall/assets/images/messi2.jpg',
         title: 'Messi: I am not that short if you looked close enough'
     },
     {
         homeTeam: 'Bayern',
         awayTeam: 'Everton',
-        homeUrl: '../../assets/images/bayern.png',
-        awayUrl: '../../assets/images/everton.png',
+        homeUrl: '../../FiboBall/assets/images/bayern.png',
+        awayUrl: '../../FiboBall/assets/images/everton.png',
         result: '3-0',
         theDate: 'Monday 06/18',
         id: 5,
-        mainUrl: '../../assets/images/alaba.jpg',
-        sideUrl: '../../assets/images/alaba2.jpg',
+        mainUrl: '../../FiboBall/assets/images/alaba.jpg',
+        sideUrl: '../../FiboBall/assets/images/alaba2.jpg',
         title: 'David Alaba: My hair is cool stop yelling at me I love the twinkles '
     },
     {
         homeTeam: 'Manchester',
         awayTeam: 'Bayern',
-        homeUrl: '../../assets/images/manchester.png',
-        awayUrl: '../../assets/images/bayern.png',
+        homeUrl: '../../FiboBall/assets/images/manchester.png',
+        awayUrl: '../../FiboBall/assets/images/bayern.png',
         result: '3-0',
         theDate: 'Monday 06/18',
         id: 6,
-        mainUrl: '../../assets/images/juan.jpg',
-        sideUrl: '../../assets/images/juan2.jpg',
+        mainUrl: '../../FiboBall/assets/images/juan.jpg',
+        sideUrl: '../../FiboBall/assets/images/juan2.jpg',
         title: 'Juan Mata: They told me I look like David Bekham but I belive I am more like Martha Stewart'
     },
 ];
@@ -926,8 +926,8 @@ var TICKETS = [
         id: 1,
         homeTeam: 'Barcelona',
         awayTeam: 'Manchester',
-        homeUrl: '../../assets/images/barcelona.png',
-        awayUrl: '../../assets/images/manchester.png',
+        homeUrl: '../../FiboBall/assets/images/barcelona.png',
+        awayUrl: '../../FiboBall/assets/images/manchester.png',
         day: 21,
         month: 'aug',
         year: 2018,
@@ -956,8 +956,8 @@ var TICKETS = [
         id: 2,
         homeTeam: 'Arsenal',
         awayTeam: 'Barcelona',
-        homeUrl: '../../assets/images/arsenal.png',
-        awayUrl: '../../assets/images/barcelona.png',
+        homeUrl: '../../FiboBall/assets/images/arsenal.png',
+        awayUrl: '../../FiboBall/assets/images/barcelona.png',
         day: 22,
         month: 'aug',
         year: 2018,
@@ -986,8 +986,8 @@ var TICKETS = [
         id: 3,
         homeTeam: 'PSG',
         awayTeam: 'Bayern',
-        homeUrl: '../../assets/images/Paris.png',
-        awayUrl: '../../assets/images/bayern.png',
+        homeUrl: '../../FiboBall/assets/images/Paris.png',
+        awayUrl: '../../FiboBall/assets/images/bayern.png',
         day: 11,
         month: 'May',
         year: 2019,
@@ -1016,8 +1016,8 @@ var TICKETS = [
         id: 4,
         homeTeam: 'Chelsea',
         awayTeam: 'Real Madrid',
-        homeUrl: '../../assets/images/chelsea.png',
-        awayUrl: '../../assets/images/real.png',
+        homeUrl: '../../FiboBall/assets/images/chelsea.png',
+        awayUrl: '../../FiboBall/assets/images/real.png',
         day: 24,
         month: 'aug',
         year: 2018,
@@ -1046,8 +1046,8 @@ var TICKETS = [
         id: 5,
         homeTeam: 'Liverpool',
         awayTeam: 'Real Madrid',
-        homeUrl: '../../assets/images/liver.png',
-        awayUrl: '../../assets/images/real.png',
+        homeUrl: '../../FiboBall/assets/images/liver.png',
+        awayUrl: '../../FiboBall/assets/images/real.png',
         day: 26,
         month: 'may',
         year: 2018,
@@ -1076,8 +1076,8 @@ var TICKETS = [
         id: 6,
         homeTeam: 'Everton',
         awayTeam: 'Tottenham',
-        homeUrl: '../../assets/images/everton.png',
-        awayUrl: '../../assets/images/tottenham.png',
+        homeUrl: '../../FiboBall/assets/images/everton.png',
+        awayUrl: '../../FiboBall/assets/images/tottenham.png',
         day: 16,
         month: 'aug',
         year: 2018,
@@ -1106,8 +1106,8 @@ var TICKETS = [
         id: 7,
         homeTeam: 'Manchester',
         awayTeam: 'Liverpool',
-        homeUrl: '../../assets/images/manchester.png',
-        awayUrl: '../../assets/images/liver.png',
+        homeUrl: '../../FiboBall/assets/images/manchester.png',
+        awayUrl: '../../FiboBall/assets/images/liver.png',
         day: 21,
         month: 'Feb',
         year: 2019,
@@ -1136,8 +1136,8 @@ var TICKETS = [
         id: 8,
         homeTeam: 'Arsenal',
         awayTeam: 'Real Madrid',
-        homeUrl: '../../assets/images/arsenal.png',
-        awayUrl: '../../assets/images/real.png',
+        homeUrl: '../../FiboBall/assets/images/arsenal.png',
+        awayUrl: '../../FiboBall/assets/images/real.png',
         day: 22,
         month: 'oct',
         year: 2019,
@@ -1166,8 +1166,8 @@ var TICKETS = [
         id: 9,
         homeTeam: 'Everton',
         awayTeam: 'Liverpool',
-        homeUrl: '../../assets/images/everton.png',
-        awayUrl: '../../assets/images/liver.png',
+        homeUrl: '../../FiboBall/assets/images/everton.png',
+        awayUrl: '../../FiboBall/assets/images/liver.png',
         day: 11,
         month: 'May',
         year: 2019,
@@ -1196,8 +1196,8 @@ var TICKETS = [
         id: 10,
         homeTeam: 'Everton',
         awayTeam: 'Barcelona',
-        homeUrl: '../../assets/images/everton.png',
-        awayUrl: '../../assets/images/barcelona.png',
+        homeUrl: '../../FiboBall/assets/images/everton.png',
+        awayUrl: '../../FiboBall/assets/images/barcelona.png',
         day: 11,
         month: 'dec',
         year: 2019,
@@ -1226,8 +1226,8 @@ var TICKETS = [
         id: 11,
         homeTeam: 'Liverpool',
         awayTeam: 'Manchester',
-        homeUrl: '../../assets/images/liver.png',
-        awayUrl: '../../assets/images/manchester.png',
+        homeUrl: '../../FiboBall/assets/images/liver.png',
+        awayUrl: '../../FiboBall/assets/images/manchester.png',
         day: 26,
         month: 'may',
         year: 2019,
@@ -1338,7 +1338,7 @@ module.exports = "<section class=\"teams\">\n    <h2>TEAMS</h2>\n    <div class=
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);\n.backit {\n  position: fixed;\n  top: 52%;\n  left: 1em;\n  font-size: 2em;\n  cursor: pointer; }\n.one {\n  -webkit-animation: light 1s infinite forwards;\n          animation: light 1s infinite forwards;\n  -webkit-animation-delay: 0.2s;\n          animation-delay: 0.2s; }\n.two {\n  -webkit-animation: light 1s infinite forwards;\n          animation: light 1s infinite forwards;\n  -webkit-animation-delay: 0.5s;\n          animation-delay: 0.5s; }\n.three {\n  -webkit-animation: light 1s infinite forwards;\n          animation: light 1s infinite forwards;\n  -webkit-animation-delay: 0.7s;\n          animation-delay: 0.7s; }\n.yellow {\n  color: #ffed01; }\n@-webkit-keyframes light {\n  0% { }\n  100% {\n    color: #767678; } }\n@keyframes light {\n  0% { }\n  100% {\n    color: #767678; } }\n.teams {\n  text-align: center;\n  font-family: \"Open Sans\";\n  padding: 1em; }\nh2 {\n  font-family: \"Open Sans\";\n  color: black;\n  font-size: 3em;\n  font-weight: 700;\n  text-shadow: 4px 4px 20px white; }\n.team {\n  height: 300px;\n  width: 300px;\n  background-color: white;\n  background-image: url(\"/../../assets/images/back3.jpeg\");\n  background-position: center;\n  background-size: cover;\n  background-repeat: no-repeat;\n  margin: 0 auto; }\n.back {\n  height: 100%;\n  width: 100%;\n  background-color: rgba(0, 0, 0, 0.653); }\n.overlay {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  width: 100%;\n  height: 200px;\n  color: white;\n  position: relative; }\n.text {\n  display: flex;\n  justify-content: center;\n  align-items: center; }\nh3 {\n  font-size: 2em; }\n.btn {\n  color: #fff;\n  cursor: pointer;\n  display: block;\n  font-size: 16px;\n  font-weight: 400;\n  line-height: 45px;\n  max-width: 160px;\n  position: relative;\n  text-decoration: none;\n  text-transform: uppercase;\n  width: 100%; }\n.btn-5 {\n  border: 0 solid;\n  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);\n  outline: 1px solid;\n  outline-color: rgba(255, 255, 255, 0.5);\n  outline-offset: 0px;\n  text-shadow: none;\n  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1); }\n.btn-5:hover {\n  border: 1px solid;\n  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);\n  outline-color: rgba(255, 255, 255, 0);\n  outline-offset: 15px;\n  text-shadow: 1px 1px 2px #427388; }\n.grid {\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: 1fr 1fr 1fr 1fr;\n      grid-template-columns: 1fr 1fr 1fr 1fr;\n  grid-gap: 1em;\n  padding: 1em;\n  padding-top: 3em;\n  width: 85%;\n  margin: 0 auto; }\n@media only screen and (max-width: 1300px) {\n  .grid {\n    -ms-grid-columns: 1fr 1fr 1fr;\n        grid-template-columns: 1fr 1fr 1fr; } }\n@media only screen and (max-width: 1150px) {\n  .grid {\n    -ms-grid-columns: 1fr 1fr;\n        grid-template-columns: 1fr 1fr; } }\n@media only screen and (max-width: 750px) {\n  .grid {\n    -ms-grid-columns: 1fr;\n        grid-template-columns: 1fr;\n    width: 90%; }\n  .ticket {\n    width: 80%; } }\n.team-logo {\n  width: 50px;\n  height: 50px;\n  padding-top: 0.3em; }\n"
+module.exports = "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);\n.backit {\n  position: fixed;\n  top: 52%;\n  left: 1em;\n  font-size: 2em;\n  cursor: pointer; }\n.one {\n  -webkit-animation: light 1s infinite forwards;\n          animation: light 1s infinite forwards;\n  -webkit-animation-delay: 0.2s;\n          animation-delay: 0.2s; }\n.two {\n  -webkit-animation: light 1s infinite forwards;\n          animation: light 1s infinite forwards;\n  -webkit-animation-delay: 0.5s;\n          animation-delay: 0.5s; }\n.three {\n  -webkit-animation: light 1s infinite forwards;\n          animation: light 1s infinite forwards;\n  -webkit-animation-delay: 0.7s;\n          animation-delay: 0.7s; }\n.yellow {\n  color: #ffed01; }\n@-webkit-keyframes light {\n  0% { }\n  100% {\n    color: #767678; } }\n@keyframes light {\n  0% { }\n  100% {\n    color: #767678; } }\n.teams {\n  text-align: center;\n  font-family: \"Open Sans\";\n  padding: 1em; }\nh2 {\n  font-family: \"Open Sans\";\n  color: black;\n  font-size: 3em;\n  font-weight: 700;\n  text-shadow: 4px 4px 20px white; }\n.team {\n  height: 300px;\n  width: 300px;\n  background-color: white;\n  background-image: url(\"/../../FiboBall/assets/images/back3.jpeg\");\n  background-position: center;\n  background-size: cover;\n  background-repeat: no-repeat;\n  margin: 0 auto; }\n.back {\n  height: 100%;\n  width: 100%;\n  background-color: rgba(0, 0, 0, 0.653); }\n.overlay {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  width: 100%;\n  height: 200px;\n  color: white;\n  position: relative; }\n.text {\n  display: flex;\n  justify-content: center;\n  align-items: center; }\nh3 {\n  font-size: 2em; }\n.btn {\n  color: #fff;\n  cursor: pointer;\n  display: block;\n  font-size: 16px;\n  font-weight: 400;\n  line-height: 45px;\n  max-width: 160px;\n  position: relative;\n  text-decoration: none;\n  text-transform: uppercase;\n  width: 100%; }\n.btn-5 {\n  border: 0 solid;\n  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);\n  outline: 1px solid;\n  outline-color: rgba(255, 255, 255, 0.5);\n  outline-offset: 0px;\n  text-shadow: none;\n  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1); }\n.btn-5:hover {\n  border: 1px solid;\n  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);\n  outline-color: rgba(255, 255, 255, 0);\n  outline-offset: 15px;\n  text-shadow: 1px 1px 2px #427388; }\n.grid {\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: 1fr 1fr 1fr 1fr;\n      grid-template-columns: 1fr 1fr 1fr 1fr;\n  grid-gap: 1em;\n  padding: 1em;\n  padding-top: 3em;\n  width: 85%;\n  margin: 0 auto; }\n@media only screen and (max-width: 1300px) {\n  .grid {\n    -ms-grid-columns: 1fr 1fr 1fr;\n        grid-template-columns: 1fr 1fr 1fr; } }\n@media only screen and (max-width: 1150px) {\n  .grid {\n    -ms-grid-columns: 1fr 1fr;\n        grid-template-columns: 1fr 1fr; } }\n@media only screen and (max-width: 750px) {\n  .grid {\n    -ms-grid-columns: 1fr;\n        grid-template-columns: 1fr;\n    width: 90%; }\n  .ticket {\n    width: 80%; } }\n.team-logo {\n  width: 50px;\n  height: 50px;\n  padding-top: 0.3em; }\n"
 
 /***/ }),
 
@@ -1618,7 +1618,7 @@ module.exports = "<section class=\"tickets\">\n  <h2>TICKETS</h2>\n  <div class=
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);\n.backit {\n  position: fixed;\n  top: 52%;\n  right: 1em;\n  font-size: 2em;\n  cursor: pointer; }\n.one {\n  -webkit-animation: light 1s infinite forwards;\n          animation: light 1s infinite forwards;\n  -webkit-animation-delay: 0.2s;\n          animation-delay: 0.2s; }\n.two {\n  -webkit-animation: light 1s infinite forwards;\n          animation: light 1s infinite forwards;\n  -webkit-animation-delay: 0.5s;\n          animation-delay: 0.5s; }\n.three {\n  -webkit-animation: light 1s infinite forwards;\n          animation: light 1s infinite forwards;\n  -webkit-animation-delay: 0.7s;\n          animation-delay: 0.7s; }\n.yellow {\n  color: #ffed01; }\n@-webkit-keyframes light {\n  0% { }\n  100% {\n    color: #767678; } }\n@keyframes light {\n  0% { }\n  100% {\n    color: #767678; } }\n.tickets {\n  text-align: center;\n  font-family: \"Open Sans\";\n  padding: 1em; }\nh2 {\n  font-family: \"Open Sans\";\n  color: black;\n  font-size: 3em;\n  font-weight: 700;\n  text-shadow: 4px 4px 20px white; }\nh3 {\n  font-size: 1.2em; }\n.ticket {\n  height: 300px;\n  width: 300px;\n  background-color: white;\n  background-image: url(\"/../../assets/images/back2.jpeg\");\n  background-position: center;\n  background-size: cover;\n  background-repeat: no-repeat;\n  margin: 0 auto; }\n.back {\n  height: 100%;\n  width: 100%;\n  background-color: rgba(0, 0, 0, 0.653); }\n.overlay {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  width: 100%;\n  height: 200px;\n  color: white;\n  position: relative; }\n.date {\n  position: absolute;\n  top: 0;\n  left: 0;\n  background-color: #77d7b9;\n  color: #fff;\n  padding: 0.8em; }\n.date .day {\n    font-weight: 700;\n    font-size: 24px;\n    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.18); }\n.date .month {\n    text-transform: uppercase; }\n.date .month,\n  .date .year {\n    font-size: 12px; }\n.text {\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n.btn {\n  color: #fff;\n  cursor: pointer;\n  display: block;\n  font-size: 16px;\n  font-weight: 400;\n  line-height: 45px;\n  max-width: 160px;\n  position: relative;\n  text-decoration: none;\n  text-transform: uppercase;\n  width: 100%; }\n.btn-5 {\n  border: 0 solid;\n  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);\n  outline: 1px solid;\n  outline-color: rgba(255, 255, 255, 0.5);\n  outline-offset: 0px;\n  text-shadow: none;\n  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1); }\n.btn-5:hover {\n  border: 1px solid;\n  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);\n  outline-color: rgba(255, 255, 255, 0);\n  outline-offset: 15px;\n  text-shadow: 1px 1px 2px #427388; }\n.grid {\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: 1fr 1fr 1fr 1fr;\n      grid-template-columns: 1fr 1fr 1fr 1fr;\n  grid-gap: 1em;\n  padding: 1em;\n  padding-top: 3em;\n  width: 85%;\n  margin: 0 auto; }\n@media only screen and (max-width: 1300px) {\n  .grid {\n    -ms-grid-columns: 1fr 1fr 1fr;\n        grid-template-columns: 1fr 1fr 1fr; } }\n@media only screen and (max-width: 1150px) {\n  .grid {\n    -ms-grid-columns: 1fr 1fr;\n        grid-template-columns: 1fr 1fr; } }\n@media only screen and (max-width: 750px) {\n  .grid {\n    -ms-grid-columns: 1fr;\n        grid-template-columns: 1fr;\n    width: 90%; }\n  .ticket {\n    width: 80%; } }\n.title {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 0.5em 0.3em; }\n.home {\n  flex-direction: column;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n.home h3 {\n    margin-bottom: 5px;\n    font-size: 3em;\n    padding: 0 0.3em; }\n.logo {\n  width: 50px; }\n"
+module.exports = "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);\n.backit {\n  position: fixed;\n  top: 52%;\n  right: 1em;\n  font-size: 2em;\n  cursor: pointer; }\n.one {\n  -webkit-animation: light 1s infinite forwards;\n          animation: light 1s infinite forwards;\n  -webkit-animation-delay: 0.2s;\n          animation-delay: 0.2s; }\n.two {\n  -webkit-animation: light 1s infinite forwards;\n          animation: light 1s infinite forwards;\n  -webkit-animation-delay: 0.5s;\n          animation-delay: 0.5s; }\n.three {\n  -webkit-animation: light 1s infinite forwards;\n          animation: light 1s infinite forwards;\n  -webkit-animation-delay: 0.7s;\n          animation-delay: 0.7s; }\n.yellow {\n  color: #ffed01; }\n@-webkit-keyframes light {\n  0% { }\n  100% {\n    color: #767678; } }\n@keyframes light {\n  0% { }\n  100% {\n    color: #767678; } }\n.tickets {\n  text-align: center;\n  font-family: \"Open Sans\";\n  padding: 1em; }\nh2 {\n  font-family: \"Open Sans\";\n  color: black;\n  font-size: 3em;\n  font-weight: 700;\n  text-shadow: 4px 4px 20px white; }\nh3 {\n  font-size: 1.2em; }\n.ticket {\n  height: 300px;\n  width: 300px;\n  background-color: white;\n  background-image: url(\"/../../FiboBall/assets/images/back2.jpeg\");\n  background-position: center;\n  background-size: cover;\n  background-repeat: no-repeat;\n  margin: 0 auto; }\n.back {\n  height: 100%;\n  width: 100%;\n  background-color: rgba(0, 0, 0, 0.653); }\n.overlay {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  width: 100%;\n  height: 200px;\n  color: white;\n  position: relative; }\n.date {\n  position: absolute;\n  top: 0;\n  left: 0;\n  background-color: #77d7b9;\n  color: #fff;\n  padding: 0.8em; }\n.date .day {\n    font-weight: 700;\n    font-size: 24px;\n    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.18); }\n.date .month {\n    text-transform: uppercase; }\n.date .month,\n  .date .year {\n    font-size: 12px; }\n.text {\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n.btn {\n  color: #fff;\n  cursor: pointer;\n  display: block;\n  font-size: 16px;\n  font-weight: 400;\n  line-height: 45px;\n  max-width: 160px;\n  position: relative;\n  text-decoration: none;\n  text-transform: uppercase;\n  width: 100%; }\n.btn-5 {\n  border: 0 solid;\n  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);\n  outline: 1px solid;\n  outline-color: rgba(255, 255, 255, 0.5);\n  outline-offset: 0px;\n  text-shadow: none;\n  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1); }\n.btn-5:hover {\n  border: 1px solid;\n  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);\n  outline-color: rgba(255, 255, 255, 0);\n  outline-offset: 15px;\n  text-shadow: 1px 1px 2px #427388; }\n.grid {\n  display: -ms-grid;\n  display: grid;\n  -ms-grid-columns: 1fr 1fr 1fr 1fr;\n      grid-template-columns: 1fr 1fr 1fr 1fr;\n  grid-gap: 1em;\n  padding: 1em;\n  padding-top: 3em;\n  width: 85%;\n  margin: 0 auto; }\n@media only screen and (max-width: 1300px) {\n  .grid {\n    -ms-grid-columns: 1fr 1fr 1fr;\n        grid-template-columns: 1fr 1fr 1fr; } }\n@media only screen and (max-width: 1150px) {\n  .grid {\n    -ms-grid-columns: 1fr 1fr;\n        grid-template-columns: 1fr 1fr; } }\n@media only screen and (max-width: 750px) {\n  .grid {\n    -ms-grid-columns: 1fr;\n        grid-template-columns: 1fr;\n    width: 90%; }\n  .ticket {\n    width: 80%; } }\n.title {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 0.5em 0.3em; }\n.home {\n  flex-direction: column;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n.home h3 {\n    margin-bottom: 5px;\n    font-size: 3em;\n    padding: 0 0.3em; }\n.logo {\n  width: 50px; }\n"
 
 /***/ }),
 
