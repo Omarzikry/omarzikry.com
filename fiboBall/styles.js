@@ -539,7 +539,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! c:\fiboBall\src\styles.scss */"./src/styles.scss");
+module.exports = __webpack_require__(/*! E:\Games\fiboBall\src\styles.scss */"./src/styles.scss");
 
 
 /***/ })
