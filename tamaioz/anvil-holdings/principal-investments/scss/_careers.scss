@@ -1,0 +1,99 @@
+.careers{
+    height: 50em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3em
+}
+.careers .grid{
+    width: 70%;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+.careers .img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+.careers .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2em
+}
+.careers h3{
+    color: $blue;
+    font-family: anvil1,sans-serif;
+    padding-bottom: 2em;
+    text-align: center
+}
+.careers .text h2{
+    font-size: 2em;
+    color: $blue;
+    font-family: anvil5,sans-serif;
+    line-height: 1.5em;
+    padding-bottom: 1em
+}
+.careers .text p{
+    font-size: 1.2em;
+    color: $dark;
+    font-family: anvil2,sans-serif;
+    line-height: 1.5em;
+    padding-bottom: 2em
+}
+.careers .text a{
+    color: $blue;
+    font-style: italic;
+    font-family: anvil2,sans-serif;
+    font-size: 0.8em;
+    display: inline-block;
+    position: relative;
+    font-weight: 600
+}
+.careers .text a:after{
+    content: "";
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    background-color: black;
+    transition: all 0.3s ease
+}
+
+.careers .text a:hover:after{
+    width: 0;
+}
+.text-desk{
+    text-align: left !important;
+}
+.text-mobile{
+    display: none
+}
+
+@media only screen and (max-width:1100px){
+    .careers .grid{
+        grid-template-columns: 1fr;
+    }
+    .careers{
+        height: auto
+    }
+    .careers .text{
+        text-align: center;
+        padding-left: 0
+    }
+    .careers .img2 img{
+        width: 60%
+    }
+    .text-mobile{
+        display: block
+    }
+    .text-desk{
+        display: none
+    }
+}
+

@@ -1,0 +1,52 @@
+$blue : #011a65;
+$dark : #191919;
+html,body{
+    width: 100%;
+}
+body{
+    overflow-x: hidden
+}
+main{
+    background-color: white;
+    z-index: 0;
+    position: relative;
+    width: 100vw;
+    padding-top: 5em;
+    overflow-x: hidden
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+*:focus{
+    outline: 0;
+}
+.height{
+    height: 100vh
+}
+.height1{
+    height: 30%
+}
+.over-hidden{
+    overflow: hidden
+}
+@font-face {
+    font-family: anvil1 ;
+    src: url('../fonts/novoapplysans-db-webfont.woff2');
+}
+@font-face {
+    font-family: anvil2 ;
+    src: url('../fonts/novoapplysans-lt-webfont.woff2');
+}
+@font-face {
+    font-family: anvil3 ;
+    src: url('../fonts/novoapplysans-rg-webfont.woff2');
+}
+@font-face {
+    font-family: anvil4 ;
+    src: url('../fonts/novoapplyserif-db-webfont.woff2');
+}
+@font-face {
+    font-family: anvil5 ;
+    src: url('../fonts/1.woff2');
+}

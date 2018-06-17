@@ -1,0 +1,48 @@
+.strategy{
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 6em
+}
+.strategy h2{
+    font-size: 2em;
+    font-family: anvil5,sans-serif;
+    text-align: center;
+    padding: 1em;
+    padding-top: 1em;
+    color: $blue;
+    transition: all 0.4s ease
+}
+
+.strategy h3{
+    text-align: center;
+    color: $blue;
+    font-size: 1em;
+    font-family: anvil1,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.strategy p,.strategy li{
+    font-size: 1.1em;
+    font-family: anvil2,sans-serif;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    padding: 0.5em 0
+}
+
+.strategy li{
+    list-style-type: disc;
+    font-size: 1em
+}
+.strategy ul{
+    padding-left: 1em
+}
+
+@media only screen and (max-width:1035px){
+    .strategy{
+        width: 50%
+    }
+}
+@media only screen and (max-width:826px){
+    .strategy{
+        width: 85%
+    }
+}

@@ -1,0 +1,51 @@
+.news{
+    height: 40em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.news a{
+    color: black
+}
+.news h3{
+    color: $blue;
+    font-size: 1em;
+    font-family: anvil3,sans-serif;
+    font-weight: 600;
+    padding-bottom: 4em
+    
+}
+.news .grid{
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 68%;
+    grid-gap: 2em
+}
+.news .grid .item h6{
+    color: #333;
+    font-family: anvil2,sans-serif;
+    font-weight: 100;
+    font-size: 0.9em
+}
+.news .grid .item p{
+    color: black;
+    font-family: anvil5,sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+@media only screen and (max-width:1080px){
+    .news .grid .item p{
+        font-size: 1.2em
+    }
+}
+@media only screen and (max-width:800px){
+    .news .grid .item p{
+        font-size: 1.3em
+    }
+    .news .grid{
+        grid-template-columns: 1fr
+    }
+}

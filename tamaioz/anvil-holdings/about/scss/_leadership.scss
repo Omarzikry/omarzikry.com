@@ -1,0 +1,79 @@
+.leader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10em 0
+}
+.leader h3{
+    color: $blue;
+    font-size: 1em;
+    font-family: anvil3,sans-serif;
+    font-weight: 600;
+    padding-bottom: 2em
+    
+}
+.leader .grid{
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 70%;
+    grid-gap: 1em
+}
+.leader h2{
+    font-size: 2em;
+    color: $blue;
+    font-family: anvil5,sans-serif;
+    line-height: 1.5em;
+    padding-bottom: 0.5em;
+    letter-spacing: 2px
+}
+.leader p{
+    font-size: 1.1em;
+    font-family: anvil2,sans-serif;
+    font-weight: 200;
+    color: #333;
+    line-height: 1.5em;
+}
+.leader .link{
+    color: $blue;
+    font-style: italic;
+    margin-top: 3em;
+    display: inline-block;
+    position: relative;
+    font-weight: 600;
+    font-family: anvil2,sans-serif;
+    font-size: 0.9em
+}
+.leader .link:after{
+    content: "";
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    background-color: black;
+    transition: all 0.5s ease
+}
+
+.leader .link:hover:after{
+    width: 0;
+}
+
+@media only screen and (max-width:1050px){
+    .leader h2{
+        font-size: 1.4em
+    }
+    .leader p{
+        font-size: 1em
+    }
+    .leader .grid{
+        grid-gap: 0.5em
+    }
+}
+@media only screen and (max-width:850px){
+    .leader .grid{
+        grid-template-columns: 1fr
+    }
+}

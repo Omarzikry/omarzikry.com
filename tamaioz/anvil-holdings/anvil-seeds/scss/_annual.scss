@@ -1,0 +1,91 @@
+.annual{
+    height: 50em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3em
+}
+.annual .inner{
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    padding: 5em;
+    padding-top: 2em;
+    grid-gap: 0.5em;
+    text-align: center
+}
+.annual .wrapper{
+    background-image: linear-gradient(-45deg,#011a65,#375676);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 55%;
+}
+.annual .inner .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.annual .inner .number{
+    font-size: 7em;
+    font-family: anvil4,sans-serif;
+}
+.annual .inner .number span{
+    font-size: 0.3em
+}
+.annual .wrapper h2{
+    color: white;
+    font-size: 2em;
+    font-family: anvil5,sans-serif;
+    line-height: 1.5em;
+    padding-bottom: 0.5em;
+}
+.annual .wrapper .text{
+    color: white;
+    font-size: 1.2em;
+    font-family: anvil2,sans-serif;
+    line-height: 1.5em;
+}
+.annual .n1{
+    padding-top: 0.2em
+}
+.annual .wrapper a{
+    color: white;
+    font-size: 1em;
+    font-family: anvil3,sans-serif;
+    position: relative;
+    display: inline-block;
+    transition: all 0.3s ease;
+    font-style: italic;
+
+}
+.annual .wrapper a:after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
+    right: 0px;
+    background-color: white;
+    height: 1.5px;
+    transition: all 0.3s ease
+}
+.annual .wrapper a:hover:after{
+    width: 0%;
+}
+@media only screen and (max-width:70em){
+    .annual{
+        height: 60em
+    }
+    .annual .inner{
+        grid-template-columns: 1fr
+    }
+    .annual .wrapper{
+        height: 100%;
+        width: 90%;
+        padding-bottom: 2em
+    }
+}
