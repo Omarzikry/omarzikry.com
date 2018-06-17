@@ -1,0 +1,101 @@
+.contact{
+    height: 60em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: $dark
+}
+.contact .wrapper{
+    height: 80%;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    grid-gap: 1em;
+}
+.contact .img{
+    height: 50em
+}
+.contact .img img{
+    height: 100%
+}
+.text-inner{
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5em
+}
+.contact h3{
+    color: $blue;
+    font-size: 1em;
+    font-family: anvil3,sans-serif;
+    font-weight: 600;
+    padding-bottom: 3em
+    
+}
+.contact .contact-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10%
+}
+.contact h2{
+    font-size: 2em;
+    color: $blue;
+    font-family: anvil5,sans-serif;
+    line-height: 1.5em;
+    padding-bottom: 1em;
+    letter-spacing: 2px
+}
+.contact strong{
+    font-size: 1.2em;
+    font-family: anvil5,sans-serif;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+    display: block;
+    padding-top: 2em
+}
+.contact p{
+    font-size: 1.2em;
+    font-family: anvil5,sans-serif;
+    font-weight: 200;
+    color: #333;
+    line-height: 1.5em
+}
+.contact .location1{
+    padding-bottom: 1.5em
+}
+
+.contact .item5{
+    padding-top: 9em
+}
+.contact .text-inner{
+    padding-top: 7em
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+@media only screen and (max-width:75em){
+    .contact{
+        height: 100em
+    }
+    .contact .wrapper{
+        grid-template-columns: 1fr;
+        width: 90%
+    }
+}
+
+@media only screen and (max-width:50em){
+    .contact{
+        height: 120em
+    }
+    .text-inner{
+        grid-template-columns: 1fr
+    }
+    .img img{
+        width: 100%
+    }
+}

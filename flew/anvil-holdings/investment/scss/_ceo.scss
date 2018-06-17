@@ -1,0 +1,56 @@
+.ceo{}
+
+.ceo .ceo-inner{
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: 0 auto
+}
+.ceo .ceo-inner .img{
+    height: 100%;
+}
+.ceo .ceo-inner .img img{
+    height: 70%;
+}
+.ceo .ceo-inner .ceo-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.ceo .ceo-inner .ceo-text .ceo-p{
+    font-family: anvil2,sans-serif;
+    color: $dark;
+    font-style: italic;
+    font-size: 2em;
+}
+.ceo .ceo-inner .ceo-text .caption{
+    padding-top: 1.5em;
+    color: $dark;
+    font-family: anvil2,sans-serif;
+    font-weight: 100;
+    font-size: 1em
+}
+.ceo .ceo-p:before{
+    content: "\201C"
+}
+
+.ceo .ceo-p:after{
+    content: "\201D"
+}
+
+@media only screen and (max-width:50em){
+    .ceo .ceo-inner{
+        grid-template-columns: 1fr;
+    }
+    .ceo .ceo-inner .ceo-text{
+        padding-left: 0em;
+        text-align: center
+    }
+}
+@media only screen and (max-width:1400px){
+    .ceo .ceo-inner .ceo-text{
+        padding-left: 2em
+    }
+}

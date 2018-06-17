@@ -1,0 +1,31 @@
+.location{
+    background-image: linear-gradient(-45deg,#f2ece8,#fcfaf9);
+    height: 20em
+}
+
+.location h3{
+    color: $blue;
+    font-family: anvil1,sans-serif;
+    padding: 3em 0;
+    padding-top: 4em;
+    text-align: center
+}
+
+.location p{
+    color: #333;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 1.1em;
+    font-family: anvil2,sans-serif
+}
+
+@media only screen and (max-width:635px){
+    .location p{
+        width: 70%
+    }
+}
+@media only screen and (max-width:400px){
+    .location p{
+        width: 85%
+    }
+}
