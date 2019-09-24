@@ -14,8 +14,8 @@ $(document).ready(function () {
   const container = new PIXI.Container();
   app.stage.addChild(container);
   PIXI.loader
-    .add("../assets/img/ripple.png")
-    .add("../assets/img/jennifer.jpg")
+    .add("./jennifer-aniston/assets/img/ripple.png")
+    .add("./jennifer-aniston/assets/img/jennifer.jpg")
     .load(setup);
 
   // in the setup function the displacment sprite is created that will create
