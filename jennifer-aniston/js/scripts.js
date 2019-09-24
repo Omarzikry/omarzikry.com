@@ -14,8 +14,8 @@ $(document).ready(function () {
   const container = new PIXI.Container();
   app.stage.addChild(container);
   PIXI.loader
-    .add("./jennifer-aniston/assets/img/ripple.png")
-    .add("./jennifer-aniston/assets/img/jennifer.jpg")
+    .add("./assets/img/ripple.png")
+    .add("./assets/img/jennifer.jpg")
     .load(setup);
 
   // in the setup function the displacment sprite is created that will create
@@ -24,7 +24,7 @@ $(document).ready(function () {
   function setup() {
     posX = app.renderer.width / 2;
     displacmentSprite = new PIXI.Sprite(
-      PIXI.loader.resources["./jennifer-aniston/assets/img/ripple.png"].texture
+      PIXI.loader.resources["./assets/img/ripple.png"].texture
     );
     displacmentFilter = new PIXI.filters.DisplacementFilter(displacmentSprite);
     displacmentSprite.anchor.set(0.5);
@@ -39,7 +39,7 @@ $(document).ready(function () {
     displacmentFilter.scale.x = 0;
     displacmentFilter.scale.y = 0;
     bg = new PIXI.Sprite(
-      PIXI.loader.resources["./jennifer-aniston/assets/img/jennifer.jpg"].texture
+      PIXI.loader.resources["./assets/img/jennifer.jpg"].texture
     );
     bg.width = app.renderer.width / 1.25;
     bg.height = app.renderer.height / 1.2;
