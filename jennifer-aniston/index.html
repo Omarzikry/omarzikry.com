@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <title>Jennifer Aniston</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=EB+Garamond:400,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="circle-cursor circle-cursor--inner"></div>
+    <div class="circle-cursor circle-cursor--outer"></div>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="#" class="logo"
+              ><img src="./assets/img/logo.png" alt="JA"
+            /></a>
+          </li>
+          <li><a href="#" class="link">Home</a></li>
+          <li><a href="#" class="link">Photos</a></li>
+          <li><a href="#" class="link">About</a></li>
+          <li><a href="#" class="link">Movies</a></li>
+        </ul>
+      </nav>
+      <!--Jennifer Aniston Hero Image-->
+      <canvas id="header-canvas"></canvas>
+    </header>
+    <main>
+      <!--Jennifer Aniston Text-->
+      <div id="blotterTextContainer"></div>
+      <!--Featured Images-->
+      <section id="featuredImages" class="featuredImages">
+        <h2 class="featuredImages__text parallax-text">
+          FEATURED PHOTOS
+        </h2>
+        <img
+          src="assets/img/jennifer-headshot.jpg"
+          alt="Jennifer Aniston headshot"
+          class="rellax vertical-photo"
+          id="feat1"
+          data-rellax-speed="1"
+        />
+        <img
+          src="assets/img/jennifer-australia.jpg"
+          alt="Jennifer Aniston headshot"
+          class="rellax vertical-photo"
+          id="feat2"
+          data-rellax-speed="2"
+        />
+        <img
+          src="assets/img/jennifer-photoshot.jpg"
+          alt="Jennifer Aniston headshot"
+          class="rellax h-photo"
+          id="feat3"
+          data-rellax-speed="5"
+        />
+      </section>
+      <!--End Featured Images-->
+      <!--Latest Movies-->
+      <section id="latestMovies" class="latest-movies">
+        <h2 class="section-title">Latest Movies</h2>
+        <!--card start-->
+        <div class="latest-movies__movie-card">
+          <div>
+            <img
+              src="assets/img/Mystrey Murder.jpg"
+              alt="Mystry murder movie Jennifer Aniston"
+            />
+          </div>
+          <div class="latest-movies__movie-card__text">
+            <h3 class="latest-movies__movie-card__text__card-title">
+              Murder Mystrey
+            </h3>
+            <ul>
+              <li>DATE - 2019</li>
+              <li>IMDB RATE - 6.4/10</li>
+              <li>GENERES - ACTION/COMEDY</li>
+            </ul>
+          </div>
+        </div>
+        <!--card end-->
+        <!--card start-->
+        <div class="latest-movies__movie-card">
+          <div>
+            <img
+              src="assets/img/Jennifer aniston dumblin.jpg"
+              alt="Mystry murder movie Jennifer Aniston"
+            />
+          </div>
+          <div class="latest-movies__movie-card__text">
+            <h3 class="latest-movies__movie-card__text__card-title">
+              Murder Mystrey
+            </h3>
+            <ul>
+              <li>DATE - 2019</li>
+              <li>IMDB RATE - 6.4/10</li>
+              <li>GENERES - ACTION/COMEDY</li>
+            </ul>
+          </div>
+        </div>
+        <!--card end-->
+        <!--card start-->
+        <div class="latest-movies__movie-card">
+          <div>
+            <img
+              src="assets/img/jen-at-market.jpg"
+              alt="Mystry murder movie Jennifer Aniston"
+            />
+          </div>
+          <div class="latest-movies__movie-card__text">
+            <h3 class="latest-movies__movie-card__text__card-title">
+              Murder Mystrey
+            </h3>
+            <ul>
+              <li>DATE - 2019</li>
+              <li>IMDB RATE - 6.4/10</li>
+              <li>GENERES - ACTION/COMEDY</li>
+            </ul>
+          </div>
+        </div>
+        <!--card end-->
+        <!--background text-->
+        <h2 class="background-txt parallax-text">movies</h2>
+      </section>
+      <!--end latest movies-->
+      <section class="beauty-video-container">
+        <div class="beauty-video-container__beauty-video">
+          <h2
+            class="beauty-video-container__beauty-video__instyle-text rellax"
+            data-rellax-speed="2"
+          >
+            InStyle
+          </h2>
+          <img
+            class="beauty-video-container__beauty-video__play-icon link"
+            id="playBtn"
+            src="./assets/icons/play.svg"
+          />
+          <video poster="./assets/img/jen inStyle.jpg">
+            <source
+              src="./assets/videos/Beauty According to Jennifer Aniston _ Cover Stars _ InStyle ( 1080 X 1920 ).mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+        <div class="beauty-video-container__qoute">
+          <p>
+            <span>“</span> Jennifer Aniston has been a beacon of all-American
+            glamour for the past 25 years. Now, with a big birthday behind her
+            and a bold new show on the horizon, she channels iconic beauty looks
+            for our October cover shoot. For our Beauty Issue, we asked Jennifer
+            Aniston to revisit some of her post quotes on beauty. Let’s just say
+            it was “interesting” having her own words read back her — especially
+            the ones from 1999 <span>”</span>
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <p>
+          Developed by
+          <a class="omar-logo nav-link" href="https://omarzikry.com"
+            >Omar Zikry</a
+          >
+        </p>
+        <p>Jennifer Aniston</p>
+        <div class="footer__socials">
+          <ul>
+            <li>
+              <a href="#" class="nav-link"
+                ><img src="./assets/icons/linkedin-in-brands.svg"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="nav-link"
+                ><img src="./assets/icons/instagram-brands.svg"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="nav-link"
+                ><img src="./assets/icons/twitter-brands.svg"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="nav-link"
+                ><img src="./assets/icons/behance-brands.svg"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+      integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.1.3/pixi.min.js"></script>
+    <script src="js/vendor/blotter.min.js"></script>
+    <script src="js/vendor/liquidDistortMaterial.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/vendor/rellax.min.js"></script>
+    <script src="js/blotter.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/videoControls.js"></script>
+    <script src="js/minified/cursor.js"></script>
+  </body>
+</html>

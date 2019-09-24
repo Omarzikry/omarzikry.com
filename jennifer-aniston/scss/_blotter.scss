@@ -1,0 +1,10 @@
+#blotterTextContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50em;
+
+    canvas {
+        transform: scaleY(1.5)
+    }
+}
