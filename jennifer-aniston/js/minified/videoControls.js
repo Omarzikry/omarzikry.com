@@ -1,1 +1,0 @@
-$(document).ready((function(){console.log($("#playBtn + video")[0]),$("#playBtn").click((function(){0==$("#playBtn + video")[0].paused?$("#playBtn + video")[0].pause():($("#playBtn + video")[0].play(),$(this).hide()),$("#playBtn + video").prop("controls",!0)}))}));
